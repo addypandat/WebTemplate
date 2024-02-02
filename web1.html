@@ -89,10 +89,28 @@
         top: 80px;
         visibility: visible;
      }
+      #sub .maintab{
+        display: flex;
+        
+     }
+     .maintab4{
+        width: 150%;
+     }
+     .maintab3{
+        width: 50%;
+     }
+     .maintab2{
+        width: 50%;
+     }
+     .maintab4{
+        width: 50%;
+     }
      #sub{
         float: none;
-        width: 422%;
+        width: 450%;
         background-color: #fff;
+        color: #000;
+        
      }
      #sub a h4{
         color: black;
@@ -212,19 +230,19 @@
 			height: 600px;
 			width: 30%;
             border-radius: 5px;
-            transition: all 0.5s ease-in-out;
+            transform: rotate(0deg);
             
 		}
-        .imges img::after{
+        img::after{
             content: "";
-            width: calc(100% - 15px);
-            height: calc(100% - 20px);
+            width: calc(100% );
+            height: calc(100%);
             background-color: #fd6219;
             border-radius: 5px;
             position: absolute;
             left: -32px;
             bottom: -15px;      
-            transform: rotate(-4.6deg);
+            transform: rotate(5deg);
             transition: all 0.5s ease-in-out;
             z-index: -1;
         }
@@ -241,34 +259,72 @@
                     <li>
                         <a href="#">Home</a>
                         <ul id="sub">
-                            <li><a href="#"><h4>Dark Version</h4></a></li> <li><a href="#"><h4>Light Version</h4></a></li>
-                            <li><a href="#">Creative Agency</a></li> <li><a href="#">Creative Agency</a></li>
-                            <li><a href="#">Marketing Agency</a></li> <li><a href="#">Marketing Agency</a></li>
-                            <li><a href="#">Studio Agency</a></li> <li><a href="#">Studio Agenc</a></li>
-                            <li><a href="#">Digital Agency</a></li> <li><a href="#">Digital Agency</a></li>
-                            <li><a href="#">Tech Startup</a></li> <li><a href="#">Tech Startup</a></li>
-                        </ul>
+                            <div class="maintab">
+                         <div class="tab">
+                            <li><a href="#"><h4>Dark Version</h4></a></li>  
+                            <li><a href="#">Creative Agency</a></li>                                                 
+                            <li><a href="#">Marketing Agency</a></li>
+                            <li><a href="#">Studio Agency</a></li>
+                            <li><a href="#">Digital Agency</a></li> 
+                            <li><a href="#">Tech Startup</a></li>
+                        </div>
+                        <div class="tab1">
+                            <li><a href="#"><h4>Light Version</h4></a></li>  
+                            <li><a href="#">Creative Agency</a></li>                                                 
+                            <li><a href="#">Marketing Agency</a></li>
+                            <li><a href="#">Studio Agency</a></li>
+                            <li><a href="#">Digital Agency</a></li> 
+                            <li><a href="#">Tech Startup</a></li>
+                        </div>
+                        </div>
+                    </ul>
                     </li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">pages</a></li>
-                    <li>
-                        <a href="#">Contact</a>
+                    <li><a href="#">Service</a>
                         <ul id="sub">
-                            <li><a href="#">Dark Version</a></li>
-                            <li><a href="#">Dark Version</a></li>
-                            <li><a href="#">Dark Version</a></li>
-                            <li><a href="#">Dark Version</a></li>
+                            <div class="maintab2">
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Service Details</a></li>
+                        </div>
                         </ul>
                     </li>
+                    <li><a href="#">Blog</a>
+                        <ul id="sub">
+                            <div class="maintab3">
+                            <li><a href="#">Blog Standard</a></li>
+                            <li><a href="#">Blog List</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                        </div>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop</a>
+                        <ul id="sub">
+                        <div class="maintab3">
+                        <li><a href="#">Our Shop</a></li>
+                        <li><a href="#">Shop Detailst</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">CheckOut</a></li>
+                        <li><a href="#">success Order</a></li>
+                        <li><a href="#">wishlist</a></li>
+                    </div>
+                    </ul></li>
+                    <li><a href="#">pages</a>
+                    <ul id="sub">
+                        <div class="maintab4">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Portfolio Detailst</a></li>
+                        <li><a href="#">Case study Detailst</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Team Detailst</a></li>
+                    </div>
+                    </ul></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <button>Buy now</button>
         </header>
     <section>
-        <img src="C:\Users\arth\Pictures\groupe project\images\hero_bg.jpeg" height="740px" width="100%">
+        <img src="C:\Users\arth\Pictures\groupeproject\images\hero_bg.jpeg" height="740px" width="100%">
         <div class="mainconter">
             <div class="conter">
                 <h1>Build Your Professional</h1>
@@ -289,7 +345,7 @@
             <div class="pragrph">
                 <ul>
                     <li>22k <span>Happy Customers</span><div class="box1"></div></li>
-                    <li>55K <span>Works Completed</span><div class="box1"></div></li>
+                    <li>55K <span>Work’s Completed</span><div class="box1"></div></li>
                     <li>121 <span>Skilled Team <span>Members</span></span><div class="box1"></div></li>
                     <li>15 <span>Most Valuable Awardss</span><div class="box1"></div></li>
                 </ul>
