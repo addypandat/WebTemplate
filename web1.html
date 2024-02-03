@@ -44,12 +44,12 @@
      header button{
         padding: 10px 25px;
         background: none;
-        border: 2px solid #fff;
+        border: 2px solid orangered;
         font-size: 20px;
-        border-radius: 25px;
+        border-radius: 15px;
      }
      header button:hover{
-        background-color: orange;
+        background-color: orangered;
      }
 
      nav ul{
@@ -221,32 +221,86 @@
 		.pragrph{
 			display: flex;
 		}
-        .imges{
+        .images{
             position: relative;
-            top: 25px;
+            top: 35px;
             left: 200px;
         }
-		.imges img{
-			height: 600px;
-			width: 30%;
+		.images img{
+			height: 650px;
+			width: 100%;
             border-radius: 5px;
-            transform: rotate(0deg);
-            
-		}
-        img::after{
-            content: "";
-            width: calc(100% );
-            height: calc(100%);
-            background-color: #fd6219;
-            border-radius: 5px;
-            position: absolute;
-            left: -32px;
-            bottom: -15px;      
-            transform: rotate(5deg);
+            z-index: 100;
+            transform: rotate(4deg);
             transition: all 0.5s ease-in-out;
-            z-index: -1;
+            position: absolute;
+            bottom: 8px;
+            left: 35px;
+		}
+        .images .box2{
+            height: 634px;
+            width: 30%;
+            border-radius: 5px;
+            background-color: orangered;
+            transform: rotate(-5deg);
+            transition: all 0.5s ease-in-out;
+            position: absolute;
+            top: 20px;
+            left: -25px;
         }
-        
+        .images img:hover{
+            transform: rotate(-5deg);
+            transition: all 0.5s ease-in-out;
+            width: 101%;
+            position: absolute;
+            bottom: -8px;
+            left: -6px;
+    }
+
+        .images .box2:hover{
+            transform: rotate(0deg);
+            transition: all 0.5s ease-in-out;
+            
+        }
+        .images .content{
+            position: absolute;
+            right: 15%;
+            top: 40px;
+            font-size: 15px;
+        }
+        .images .content span{
+            color: orangered;
+            font-size: 20px;
+            font-family: inter,sans-serif;
+        }
+        .images .content h1{
+            font-size: 50px;
+            padding: 15px 0px;
+            font-family: prompt,sans-serif;
+        }
+        .images .content p{
+            font-size: 18px;
+            color: #a3a3a3;
+            padding: 20px 0px;
+        }
+        .images .content .ul{
+            padding: 20px 0px;
+        }
+        .images .content h3{
+            font-size: 22px;
+            padding: 15px 0px;
+        }
+        .images .content button{
+            padding: 10px 30px;
+            background: none;
+            border: 1px solid orangered;
+            font-size: 18px;
+            border-radius: 18px;
+        }
+        .images .content button:hover{
+            background-color: orangered;
+        }
+          
     </style>
 </head>
 <body>
@@ -257,74 +311,74 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="file:///C:/Users/arth/Pictures/groupeproject/WebTemplate/web1.html">Home</a>
                         <ul id="sub">
                             <div class="maintab">
                          <div class="tab">
                             <li><a href="#"><h4>Dark Version</h4></a></li>  
-                            <li><a href="#">Creative Agency</a></li>                                                 
-                            <li><a href="#">Marketing Agency</a></li>
-                            <li><a href="#">Studio Agency</a></li>
-                            <li><a href="#">Digital Agency</a></li> 
-                            <li><a href="#">Tech Startup</a></li>
+                            <li><a href="file:///C:/Users/arth/Pictures/groupeproject/WebTemplate/web1.html">Creative Agency</a></li>                                                 
+                            <li><a href="https://static.laralink.com/html/zivan/marketing-agency.html">Marketing Agency</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/studio-agency.html">Studio Agency</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/digital-agency.html">Digital Agency</a></li> 
+                            <li><a href="https://static.laralink.com/html/zivan/tech-startup.html">Tech Startup</a></li>
                         </div>
                         <div class="tab1">
                             <li><a href="#"><h4>Light Version</h4></a></li>  
-                            <li><a href="#">Creative Agency</a></li>                                                 
-                            <li><a href="#">Marketing Agency</a></li>
-                            <li><a href="#">Studio Agency</a></li>
-                            <li><a href="#">Digital Agency</a></li> 
-                            <li><a href="#">Tech Startup</a></li>
+                            <li><a href="file:///C:/Users/arth/Pictures/groupeproject/WebTemplate/web1.html">Creative Agency</a></li>                                                 
+                            <li><a href="https://static.laralink.com/html/zivan/marketing-agency-light.html">Marketing Agency</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/studio-agency-light.html">Studio Agency</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/digital-agency-light.html">Digital Agency</a></li> 
+                            <li><a href="https://static.laralink.com/html/zivan/tech-startup-light.html">Tech Startup</a></li>
                         </div>
                         </div>
                     </ul>
                     </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a>
+                    <li><a href="https://static.laralink.com/html/zivan/about.html">About</a></li>
+                    <li><a href="https://static.laralink.com/html/zivan/service.html">Service</a>
                         <ul id="sub">
                             <div class="maintab2">
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Service Details</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/service-light.html">Service</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/service-details-light.html">Service Details</a></li>
                         </div>
                         </ul>
                     </li>
-                    <li><a href="#">Blog</a>
+                    <li><a href="https://static.laralink.com/html/zivan/blog.html">Blog</a>
                         <ul id="sub">
                             <div class="maintab3">
-                            <li><a href="#">Blog Standard</a></li>
-                            <li><a href="#">Blog List</a></li>
-                            <li><a href="#">Blog Details</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/blog-light.html">Blog Standard</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/blog-list-light.html">Blog List</a></li>
+                            <li><a href="https://static.laralink.com/html/zivan/blog-details-light.html">Blog Details</a></li>
                         </div>
                         </ul>
                     </li>
-                    <li><a href="#">Shop</a>
+                    <li><a href="https://static.laralink.com/html/zivan/shop.html">Shop</a>
                         <ul id="sub">
                         <div class="maintab3">
-                        <li><a href="#">Our Shop</a></li>
-                        <li><a href="#">Shop Detailst</a></li>
-                        <li><a href="#">Cart</a></li>
-                        <li><a href="#">CheckOut</a></li>
-                        <li><a href="#">success Order</a></li>
-                        <li><a href="#">wishlist</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/blog-details-light.html">Our Shop</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/shop-product-details.html">Shop Detailst</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/shop-cart.html">Cart</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/shop-checkout.html">CheckOut</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/shop-order-recived.html">success Order</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/shop-wishlist.html">wishlist</a></li>
                     </div>
                     </ul></li>
-                    <li><a href="#">pages</a>
+                    <li><a href="https://static.laralink.com/html/zivan/index.html">pages</a>
                     <ul id="sub">
                         <div class="maintab4">
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Portfolio Detailst</a></li>
-                        <li><a href="#">Case study Detailst</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Team Detailst</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/portfolio.html">Portfolio</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/portfolio-details.html">Portfolio Detailst</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/case-study-details.html">Case study Detailst</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/team.html">Team</a></li>
+                        <li><a href="https://static.laralink.com/html/zivan/team-details.html">Team Detailst</a></li>
                     </div>
                     </ul></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="https://static.laralink.com/html/zivan/contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <button>Buy now</button>
+            <a href="https://static.laralink.com/html/zivan/contact.html"><button>Getting Started</button></a>
         </header>
     <section>
-        <img src="C:\Users\arth\Pictures\groupeproject\images\hero_bg.jpeg" height="740px" width="100%">
+        <img src="C:\Users\arth\Pictures\groupeproject\images\hero_bg.jpeg" height="780px" width="100%">
         <div class="mainconter">
             <div class="conter">
                 <h1>Build Your Professional</h1>
@@ -354,10 +408,23 @@
 </section>
 
 <section>
-    <div class="imges">
-    <div class="box2"></div>
+    <div class="images">
+        <div class="box2">
         <img src="C:\Users\arth\Pictures\groupeproject\images\about_1.jpeg">
-         <div class="content">
+        </div>
+        <div class="content">
+            <span>Who We Are</span>
+            <h1>Full-stack creatives and<br>designing agency</h1>
+            <p>Our team, specializing in strategic digital marketing, partners with the world's <br> 
+                leading brands. Breaking from the norm, we push boundaries and merge <br>
+                imaginative thinking, consumer behavior, and data-driven design with advanced<br> 
+                technology to deliver unparalleled brand experiences.</p>
+                <div class="ul">
+                    <h3>Designing content with AI power</h3>
+                    <h3>Trending marketing tools involve</h3>
+                    <h3>Powerful market strategy use</h3>
+                </div>
+                <button>Learn More</button>
         </div>
    </div>
 </section>
