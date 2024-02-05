@@ -299,3 +299,41 @@ body{
     position: absolute;
     right: 5%;    
 }
+.page2 .container{
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 50px;
+}
+.page2 .container p{
+    color: orangered;
+}
+.page2 .container .box{
+width: 100%;
+border: 2px solid #fff;
+}
+.page2 .container .box .content{
+    padding: 10px 20px;
+}
+.page2 .container .box .content p{
+    color: #a3a3a3;
+    font-size: 18px;
+}
+.page2 .container h2{
+    padding: 45px 0px;
+    font-size: 58px;
+}
+.page2 .container .box2{
+    width: 100%;
+    border: 2px solid #fff;
+}
+.page2 .container .box2 .content h3{
+    padding: 20px 20px;
+}
+.page2 .container .box3{
+    width: 100%;
+    border: 2px solid #fff;
+}
+.page2 .container .box3 .content h3{
+    padding: 20px 20px;
+}
