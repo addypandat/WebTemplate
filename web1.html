@@ -6,302 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
      />
-     <link rel="stylesheet" href="zivan.css">
-     <style>
-        *{
-            padding: 0;
-            margin: 0;
-            font-family: prompt,sans-serif;
-            text-decoration: none;
-            list-style: none;
-            color: white;
-        }
-        @media (max-width: 874px) {
-            header button{
-                display: none;
-            }
-            #checkbtn{
-                display: block !important;
-            }
-            
-        }
-        header{
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        background-color: #000;
-        padding: 30px 10px;
-        position: fixed;
-        z-index: 600;
-     }
-     header h1{
-        font-size: 30px;
-     }
-     header h1 span{
-        font-size: 35px;
-        color: orange;
-     }
-     header button{
-        padding: 10px 25px;
-        background: none;
-        border: 2px solid orangered;
-        font-size: 20px;
-        border-radius: 15px;
-     }
-     header button:hover{
-        background-color: orangered;
-     }
-
-     nav ul{
-        background: transparent;
-        list-style: none;
-        width: 100%;
-     }
-     nav li{
-        float: left;
-        position: relative;
-        width: auto;
-     }
-     nav a{
-        background-color: transparent;
-        color: #fff;
-        display: block;
-        font-weight: 400;
-        font-size: 20px;
-        padding: 15px 20px;
-        text-align: center;
-        text-decoration: none;
-        transition: all 0.25s ease;
-     }
-     nav li:hover a{
-        background: transparent;
-     }
-     #sub{
-        left: 0;
-        opacity: 0;
-        position: absolute;
-        z-index: 300;
-        top: 35px;
-        visibility: hidden; 
-     }
-     li:hover ul#sub{
-        opacity: 1;
-        top: 80px;
-        visibility: visible;
-     }
-      #sub .maintab{
-        display: flex;
-        
-     }
-     .maintab4{
-        width: 150%;
-     }
-     .maintab3{
-        width: 50%;
-     }
-     .maintab2{
-        width: 50%;
-     }
-     .maintab4{
-        width: 50%;
-     }
-     #sub{
-        float: none;
-        width: 450%;
-        background-color: #fff;
-        color: #000;
-        
-     }
-     #sub a h4{
-        color: black;
-     }
-     #sub a:hover{
-        color: orange;
-     }
-     #sub a{
-        font-size: 19px;
-        color: #000;
-        background-color: transparent;
-     }
-     #checkbtn{
-        float: left;
-        display: none;
-     }
-     #check{
-        display: none;
-     }
-        .mainconter{
-            width: 99%;
-            position: absolute;
-            top: 35%;
-            left: 5px;
-            font-size: 50px;
-            text-align: center;
-        }
-        .conter h2{
-            padding: 25px 0px;
-        }
-        .conter h2 span{
-            color: transparent;
-            display: inline-block;
-            -webkit-text-stroke: 2px #fff;
-        }
-        .conter h6 span{
-            color: orange;
-        }
-        .conter h6{
-            font-size: 25px;
-        }
-        .box button{
-            border-radius: 15px;
-            background: transparent;
-            padding: 18px 10px;
-            border: 2px solid white;
-            position: relative;
-            top: 40px;
-            
-        }
-        button .box1{
-            height: 5px;
-            width: 5px;
-            background-color: #fff;
-            border-radius: 50%;
-            position: relative;
-            top: -9px;
-            left: 0.5px;
-            border: none;
-            animation: bounce 2s infinite;
-        }
-        @keyframes bounce{
-            10%{
-                height: 5px;
-                width: 5px;
-
-            }
-            50%{
-                height: 5px;
-                width: 5px;
-                transform: translateY(15px);
-                
-            }
-        }
-        body{
-	    	background-color: black;
-	    }
- 		.pragrph ul{
-			width: 100%;
- 			display: flex;
- 			font-size: 50px;
- 			justify-content: space-around;
- 			color: white;
-		    padding: 100px 110px;
-			
-
- 		}
- 		.pragrph ul li span {
- 			position: relative;
- 			top: -10px;
- 			left: 8px;
- 			color: #545454;
-			font-size: 20px;
- 		}
-		 .pragrph ul li span span{
-			position: relative;
-			top: 25px;
-			left: -120px;
-		 }
- 		 .box1{
- 			height: 50px;
-            width: 2px;
-            background-color: #545454;
-            position: relative;
-            top: -50px;
-            left: 300px;
- 		}
-		.pragrph{
-			display: flex;
-		}
-        .images{
-            position: relative;
-            top: 35px;
-            left: 200px;
-        }
-		.images img{
-			height: 650px;
-			width: 100%;
-            border-radius: 5px;
-            z-index: 100;
-            transform: rotate(4deg);
-            transition: all 0.5s ease-in-out;
-            position: absolute;
-            bottom: 8px;
-            left: 35px;
-		}
-        .images .box2{
-            height: 634px;
-            width: 30%;
-            border-radius: 5px;
-            background-color: orangered;
-            transform: rotate(-5deg);
-            transition: all 0.5s ease-in-out;
-            position: absolute;
-            top: 20px;
-            left: -25px;
-        }
-        .images img:hover{
-            transform: rotate(-5deg);
-            transition: all 0.5s ease-in-out;
-            width: 101%;
-            position: absolute;
-            bottom: -8px;
-            left: -6px;
-    }
-
-        .images .box2:hover{
-            transform: rotate(0deg);
-            transition: all 0.5s ease-in-out;
-            
-        }
-        .images .content{
-            position: absolute;
-            right: 15%;
-            top: 40px;
-            font-size: 15px;
-        }
-        .images .content span{
-            color: orangered;
-            font-size: 20px;
-            font-family: inter,sans-serif;
-        }
-        .images .content h1{
-            font-size: 50px;
-            padding: 15px 0px;
-            font-family: prompt,sans-serif;
-        }
-        .images .content p{
-            font-size: 18px;
-            color: #a3a3a3;
-            padding: 20px 0px;
-        }
-        .images .content .ul{
-            padding: 20px 0px;
-        }
-        .images .content h3{
-            font-size: 22px;
-            padding: 15px 0px;
-        }
-        .images .content button{
-            padding: 10px 30px;
-            background: none;
-            border: 1px solid orangered;
-            font-size: 18px;
-            border-radius: 18px;
-        }
-        .images .content button:hover{
-            background-color: orangered;
-        }
-          
-    </style>
+     <link rel="stylesheet" href="web1.css">
 </head>
 <body>
     <header>
@@ -315,7 +20,7 @@
                         <ul id="sub">
                             <div class="maintab">
                          <div class="tab">
-                            <li><a href=""><h4>Dark Version</h4></a></li>  
+                            <li><a href="#"><h4>Dark Version</h4></a></li>  
                             <li><a href="file:///C:/Users/arth/Pictures/groupeproject/WebTemplate/web1.html">Creative Agency</a></li>                                                 
                             <li><a href="https://static.laralink.com/html/zivan/marketing-agency.html">Marketing Agency</a></li>
                             <li><a href="https://static.laralink.com/html/zivan/studio-agency.html">Studio Agency</a></li>
@@ -427,6 +132,35 @@
                 <button>Learn More</button>
         </div>
    </div>
+</section>
+<section>
+    <div class="page2">
+        <div class="image">
+            <img src="C:\Users\arth\Pictures\groupeproject\code\why_choose_us_img_3.jpeg">
+        </div>
+        <div class="container">
+            <h5>Why Choose Us</h5>
+            <h2>We have depth of <br> market knowledge</h2>
+            <div class="box">
+            <div class="content">
+                <h3>Talented, professional & expert team</h3>
+                <p>Our team, specializing in strategic digital marketing, <br>
+                    are not partners with the world's leading brands. Breaking <br>
+                    from the norm, we push boundaries and merge.</p>
+            </div>
+        </div>
+            <div class="box2">
+                <div class="content">
+                    <h3>Highly accuracy AI based system</h3>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="content">
+                    <h3>Secret successful brand strategy formula</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 </body>
 </html>
